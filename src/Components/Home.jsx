@@ -7,7 +7,7 @@ const Home = () => {
 
     const[News,SetNews]= useState([]);
 
-    const key = `ecfaf9eaaa8d40a5b5d769210f5ee616`;
+    const key = `d86b04d1b04241959d3122ba439f63f3`;
 
     useEffect(()=>{
       let url = `https://newsapi.org/v2/top-headlines?country=in&category=general&apiKey=${key}`;
